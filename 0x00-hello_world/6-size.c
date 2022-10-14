@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * printf() - prints the different sizes of a charater size
- * retun: Always (0) Sucess
+ * return: Always (0) Sucess
  */
 int main(void)
 {
