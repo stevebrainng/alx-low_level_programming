@@ -11,9 +11,11 @@ int main(void)
         /* your code goes there */
         if ( n > 0 )
         {
-                printf("is positive");
+		scanf( "%d", &n );
+		printf("is positive");
         } else if ( n == 0 )
         {
+		scanf( "%d", &n );
                 printf("is zero");
         }
         else if ( n < 0 )
