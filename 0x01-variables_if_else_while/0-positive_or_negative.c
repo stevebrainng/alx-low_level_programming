@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* betty style doc for function main goes there */
+/**
+ * main - Entery point
+ * if() - Check against a condition
+ * Return: Always (0) success
+ */
 int main(void)
 {
         int n;
@@ -11,16 +15,16 @@ int main(void)
         /* your code goes there */
         if ( n > 0 )
         {
-		scanf( "%d", n );
+		scanf( "%d", &n );
 		printf( "is positive" );
         } else if ( n == 0 )
         {
-		scanf( "%d", n );
+		scanf( "%d", &n );
                 printf( "is zero" );
         }
         else if ( n < 0 )
         {
                 printf("is negative");
         }
-        return (0);
+	return (0)
 }
