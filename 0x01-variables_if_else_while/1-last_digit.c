@@ -2,30 +2,30 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - program entry point.
- *Desc: checks on the last digit of assigned char
- *Return: always 0 (success).
+ * main - Entery point
+ * Decs: checks on the last digit of assigned char
+ * Return: always 0 (success)
  */
 int main(void)
 {
-    int n;
-    int ldigit;
+	int n;
+	int a;
 
-    srand(time(0));
-    n = rand() - RAND_MAX / 2;
-    ldigit = n % 10;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	a = n % 10;
 
-    if (ldigit > 5)
-    {
-        printf("Last digit of %d is %d and is greater than 5\n", n, ldigit);
-    }
-    else if (ldigit == 0)
-    {
-        printf("Last digit of %d is %d and is 0\n", n, ldigit);
-    }
-    else
-    {
-        printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ldigit);
-    }
-    return (0);
+	if (a > 5)
+	{
+		printf("Last digit od %d is %d and is greater than 5\n", n, a);
+	}
+	else if (a == 0)
+	{
+		printf("Last digit of %d is %d and is 0\n", n, a);
+	}
+	else
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, a);
+	}
+	return (0);
 }
