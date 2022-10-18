@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main-program entry point.
+ *main - program entry point.
  *Desc: checks on the last digit of assigned char
  *Return: always 0 (success).
  */
